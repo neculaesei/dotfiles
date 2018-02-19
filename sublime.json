@@ -1,0 +1,58 @@
+{
+  "auto_complete_commit_on_tab": true,
+  "bold_folder_labels": false,
+  "caret_extra_width": 2,
+  "caret_style": "phase",
+  "close_windows_when_empty": false,
+  "color_scheme": "Packages/User/Color Highlighter/themes/Tyrann Alex.tmTheme",
+  "copy_with_empty_selection": true,
+  "draw_indent_guides": true,
+  "draw_white_space": "selection",
+  "enable_tab_scrolling": false,
+  "ensure_newline_at_eof_on_save": true,
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    "node_modules"
+  ],
+  "font_face": "iA Writer Duospace",
+  "font_size": 16,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "indent_guide_options":
+  [
+    "draw_active"
+  ],
+  "index_files": true,
+  "line_padding_bottom": 5,
+  "line_padding_top": 5,
+  "monokai_pro_highlight_open_folders": true,
+  "rulers":
+  [
+    50,
+    80
+  ],
+  "scroll_past_end": true,
+  "tab_size": 2,
+  "theme": "Agila Neon.sublime-theme",
+  "theme_agila_active_tab_entry_yellow": true,
+  "theme_agila_auto_complete_yellow": true,
+  "theme_agila_compact_sidebar": true,
+  "theme_agila_compact_tab": true,
+  "theme_agila_modified_tab_marker_yellow": true,
+  "theme_agila_nano_mode": true,
+  "theme_agila_sidebar_font_xsmall": true,
+  "theme_agila_sidebar_heading_yellow": true,
+  "theme_agila_sidebar_light_icons": true,
+  "theme_agila_sidebar_mini": true,
+  "theme_agila_sidebar_plus_minus": true,
+  "theme_agila_vertical_scrollbar_yellow": true,
+  "translate_tabs_to_spaces": true
+}
