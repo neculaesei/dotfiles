@@ -1,0 +1,38 @@
+{
+  "editor.accessibilitySupport": "off",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": false,
+  "editor.lineHeight": 24,
+  "editor.fontSize": 14,
+  "editor.quickSuggestionsDelay": 4,
+  "editor.renderControlCharacters": true,
+  "editor.renderLineHighlight": "all",
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [
+    60, 80
+  ],
+  "editor.smoothScrolling": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autofix": true
+    }
+  ],
+  "rest-client.previewOption": "exchange",
+  "prettier.eslintIntegration": true,
+  "prettier.printWidth": 500,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.useTabs": false,
+  "workbench.colorTheme": "GitHub Plus",
+  "window.zoomLevel": 0,
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.keymap": "alternate"
+}

@@ -4,7 +4,7 @@
 
 ### Core
 
-- fish shell
+- zsh shell
 - tmux
 
 ### Usability
