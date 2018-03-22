@@ -11,6 +11,8 @@
 
 - [Spectacle](https://www.spectacleapp.com/) - window management
 - [Karabiner](https://pqrs.org/osx/karabiner/) - key remapping for hackintosh
+- Contexts - a better cmd+tab experience
+- BetterTouchTool
 
 ### Workflow
 
@@ -40,6 +42,7 @@
 - Sketch
 - Adobe XD
 - Zeplin
+- Sip
 
 ### Misc
 
