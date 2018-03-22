@@ -1,4 +1,8 @@
 {
+  // Privacy
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  // Editor
   "editor.accessibilitySupport": "off",
   "editor.cursorBlinking": "solid",
   "editor.cursorStyle": "line",
@@ -16,6 +20,7 @@
     60, 80
   ],
   "editor.smoothScrolling": true,
+  // ESLint
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -24,15 +29,19 @@
       "autofix": true
     }
   ],
+  // REST Client
   "rest-client.previewOption": "exchange",
+  // Prettier with ESLint
   "prettier.eslintIntegration": true,
   "prettier.printWidth": 500,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.useTabs": false,
+  // Misc
   "workbench.colorTheme": "GitHub Plus",
   "window.zoomLevel": 0,
   "workbench.iconTheme": "material-icon-theme",
   "explorer.confirmDragAndDrop": false,
-  "gitlens.keymap": "alternate"
+  "gitlens.keymap": "alternate",
+  "material-icon-theme.showUpdateMessage": false
 }
