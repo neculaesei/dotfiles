@@ -1,3 +1,17 @@
+/*
+  Installed pluggins:
+    - Auto Close Tag
+    - Beautify
+    - Bracked Pair Colorizer
+    - Debugger for Chrome
+    - Dracula Official
+    - EditorConfig for VSCode
+    - ESLint
+    - GitLens
+    - MagicPython
+    - Vetur
+    - vscode-icons
+*/
 {
   // Privacy
   "telemetry.enableTelemetry": false,
@@ -7,12 +21,13 @@
   "editor.cursorBlinking": "solid",
   "editor.cursorStyle": "line",
   "editor.tabSize": 2,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Input Mono",
+  "editor.fontWeight": "500",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": false,
   "editor.lineHeight": 24,
   "editor.fontSize": 14,
-  "editor.quickSuggestionsDelay": 4,
+  "editor.quickSuggestionsDelay": 2,
   "editor.renderControlCharacters": true,
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "boundary",
@@ -29,8 +44,6 @@
       "autofix": true
     }
   ],
-  // REST Client
-  "rest-client.previewOption": "exchange",
   // Prettier with ESLint
   "prettier.eslintIntegration": true,
   "prettier.printWidth": 500,
@@ -38,10 +51,15 @@
   "prettier.singleQuote": true,
   "prettier.useTabs": false,
   // Misc
-  "workbench.colorTheme": "GitHub Plus",
-  "window.zoomLevel": 0,
-  "workbench.iconTheme": "material-icon-theme",
   "explorer.confirmDragAndDrop": false,
   "gitlens.keymap": "alternate",
-  "material-icon-theme.showUpdateMessage": false
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "material-icon-theme.showUpdateMessage": false,
+  "workbench.iconTheme": "eq-material-theme-icons-light",
+  "workbench.colorTheme": "Dracula",
+  "materialTheme.fixIconsRunning": false,
+  "window.zoomLevel": 0,
+  "workbench.sideBar.location": "right",
 }
