@@ -1,16 +1,24 @@
 /*
   Installed pluggins:
+    - Advanced New File
     - Auto Close Tag
     - Beautify
+    - Bookmarks
     - Bracked Pair Colorizer
+    - CodeMetrics
     - Debugger for Chrome
     - Dracula Official
     - EditorConfig for VSCode
     - ESLint
     - GitLens
+    - GraphQL for VSCode
     - MagicPython
+    - npm Intellisense
+    - Prettier
+    - TODO Highlight
     - Vetur
-    - vscode-icons
+    - VSCode Great Icons
+    - Vue VSCode Snippets
 */
 {
   // Privacy
@@ -21,6 +29,7 @@
   "editor.cursorBlinking": "solid",
   "editor.cursorStyle": "line",
   "editor.tabSize": 2,
+  "editor.insertSpaces": true,
   "editor.fontFamily": "Input Mono",
   "editor.fontWeight": "500",
   "editor.fontLigatures": true,
@@ -35,6 +44,9 @@
     60, 80
   ],
   "editor.smoothScrolling": true,
+  "search.exclude": {
+    "node_modules": true
+  },
   // ESLint
   "eslint.validate": [
     "javascript",
@@ -50,6 +62,11 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.useTabs": false,
+  // Code Runner
+  "code-runner.defaultLanguage": "javascript",
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.enableAppInsights": false,
+  "code-runner.showExecutionMessage": false,
   // Misc
   "explorer.confirmDragAndDrop": false,
   "gitlens.keymap": "alternate",
@@ -57,7 +74,7 @@
     "suppressShowKeyBindingsNotice": true
   },
   "material-icon-theme.showUpdateMessage": false,
-  "workbench.iconTheme": "eq-material-theme-icons-light",
+  "workbench.iconTheme": "vscode-great-icons",
   "workbench.colorTheme": "Dracula",
   "materialTheme.fixIconsRunning": false,
   "window.zoomLevel": 0,
