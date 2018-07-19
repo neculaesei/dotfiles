@@ -29,11 +29,12 @@
   "editor.cursorBlinking": "solid",
   "editor.cursorStyle": "line",
   "editor.tabSize": 2,
-  "editor.insertSpaces": true,
+  // "editor.insertSpaces": true,
   "editor.fontFamily": "Input Mono",
   "editor.fontWeight": "500",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
   "editor.lineHeight": 24,
   "editor.fontSize": 14,
   "editor.quickSuggestionsDelay": 2,
@@ -41,13 +42,15 @@
   "editor.renderLineHighlight": "all",
   "editor.renderWhitespace": "boundary",
   "editor.rulers": [
-    60, 80
+    60,
+    80
   ],
   "editor.smoothScrolling": true,
   "search.exclude": {
     "node_modules": true
   },
   // ESLint
+  "eslint.enable": true,
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -57,7 +60,7 @@
     }
   ],
   // Prettier with ESLint
-  "prettier.eslintIntegration": true,
+  "prettier.eslintIntegration": false,
   "prettier.printWidth": 500,
   "prettier.semi": false,
   "prettier.singleQuote": true,
@@ -67,6 +70,8 @@
   "code-runner.clearPreviousOutput": true,
   "code-runner.enableAppInsights": false,
   "code-runner.showExecutionMessage": false,
+  // Term
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\bash.exe",
   // Misc
   "explorer.confirmDragAndDrop": false,
   "gitlens.keymap": "alternate",
